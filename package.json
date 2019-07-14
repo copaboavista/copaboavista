@@ -7,18 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "live-server public/",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laerciovitorino/copa-boa-vista.git"
+    "url": "git+https://github.com/copaboavista/copaboavista.git"
   },
   "author": "Laércio Vitorino",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/laerciovitorino/copa-boa-vista/issues"
+    "url": "https://github.com/copaboavista/copaboavista/issues"
   },
-  "homepage": "https://github.com/laerciovitorino/copa-boa-vista#readme",
+  "homepage": "https://github.com/copaboavista/copaboavista",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
@@ -32,6 +34,7 @@
     "bootstrap": "^4.3.1",
     "css-loader": "^0.28.4",
     "file-loader": "^4.0.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
     "live-server": "^1.2.1",
     "node-sass": "^4.5.3",
