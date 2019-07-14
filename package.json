@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/copaboavista/copaboavista/issues"
   },
-  "homepage": "https://github.com/copaboavista/copaboavista",
+  "homepage": "https://copaboavista.github.io/copaboavista/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
